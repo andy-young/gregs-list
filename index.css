@@ -1,1 +1,60 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  padding: 80px;
+  font-family: "Roboto", sans-serif;
+}
+
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.top-nav {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.nav-link {
+  font-size: 18px;
+  padding: 0 6px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.rl-logo {
+  display: inline-block;
+  font-weight: 800;
+}
+
+.rl-logo h1 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.search-section {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
